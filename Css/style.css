@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+*
+{
+    box-sizing: border-box;
+    --font-family: 'Fraunces', serif;
+    --font-family-one: 'Montserrat', sans-serif;
+    --font-family-two: 'Outfit', sans-serif;
+}
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #d6e1f0;
+    font-family: var(--font-family-one);
+}
+.card
+{
+  
+    background-color: rgb(54, 54, 54);
+    width: 30vw;
+    line-height: 400%;
+    border-radius: 17px;
+    padding: 20px;
+    background-color: white;
+}
+
+img
+{
+    width: 100%;
+    border-radius: 17px;
+}
+
+h1{
+    text-align: center;
+    line-height: 120%;
+    margin-top: 0;
+    font-size: 25px;
+    
+}
+
+p{
+    text-align: center;
+    line-height: 120%;
+    padding: 0 20px;
+    color: rgb(139, 137, 137);
+    margin-bottom: 30px;
+}
+
+.attribution {
+    
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 15px;
+
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+.card
+{
+  
+    background-color: rgb(54, 54, 54);
+    width: 90vw;
+    line-height: 400%;
+    border-radius: 17px;
+    padding: 20px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    line-height: 120%;
+    margin-top: 0;
+    font-size: 22px;
+}
+p{
+    text-align: center;
+    line-height: 120%;
+    padding: 0 3px;
+    color: rgb(139, 137, 137);
+    margin-bottom: 30px;
+}
+
+
+}
